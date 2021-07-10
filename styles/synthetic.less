@@ -1,0 +1,127 @@
+.wrapper {
+    background: url(../public/img/backpack_bg.png) no-repeat center;
+    background-size: cover;
+    .synthetic {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 100px 0 0 0;
+        .figure_description {
+            width: 555px;
+            height: 660px;
+            float: left;
+            h1 {
+                color: #d6a670;
+                font-size: 48px;
+                font-weight: bold;
+                i.figure_description_l {
+                    background: url(../public/img/figure_description_title_l.png) no-repeat center;
+                    background-size: 100% auto;
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 25px;
+                    height: 46px;
+                }
+                i.figure_description_r {
+                    background: url(../public/img/figure_description_title_r.png) no-repeat center;
+                    background-size: 100% auto;
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 25px;
+                    height: 46px;
+                }
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 0 10px;
+                }
+            }
+            h2 {
+                background: #bf9a6c;
+                overflow: hidden;
+                line-height: 46px;
+                padding-left: 30px;
+                width: 150px;
+                font-size: 16px;
+                margin-top: 30px;
+                i {
+                    background: url(../public/img/figure_sound.png) no-repeat center #a6865d;
+                    background-size: 30% auto;
+                    width: 44px;
+                    height: 44px;
+                    border: 2px solid #987549;
+                    float: right;
+                    cursor: pointer;
+                }
+            }
+            p {
+                margin-top: 30px;
+                line-height: 1.8em;
+                color: #fff;
+                width: 400px;
+                opacity: 0.8;
+                text-shadow: 0 0 3px rgb(0 0 0 / 40%);
+            }
+            .synthetic_box {
+                background: #d7d7d726;
+                height: 70px;
+                margin-top: 80px;
+                position: relative;
+                .synthetic_btn {
+                    float: right;
+                    background: url(../public/img/synthetic_btn.png) no-repeat center;
+                    border: none;
+                    font-size: 30px;
+                    color: #1e2229;
+                    background-size: auto 100%;
+                    height: 70px;
+                    width: 162px;
+                    text-align: left;
+                    text-indent: 0.8em;
+                    cursor: pointer;
+                    margin-right: -30px;
+                }
+                ul {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 150px;
+                    li {
+                        width: 96px;
+                        height: 113px;
+                        margin: 8px;
+                        display: inline-block;
+                        border: 1px solid #2c3747;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        h1 {
+                            background-image: url(../public/img/square_ETH.png), linear-gradient(#192231, #4e405f);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            width: 100%;
+                            height: 90px;
+                        }
+                        h3 {
+                            color: #ffedd2;
+                            font-size: 14px;
+                            line-height: 24px;
+                            padding: 0 10px;
+                            background: #191c24;
+                        }
+                    }
+                }
+            }
+        }
+        .figure {
+            width: 530px;
+            height: 660px;
+            float: right;
+            cursor: pointer;
+            &.usdt {
+                background: url(../public/img/backpack_usdt.png) no-repeat center top;
+                background-size: auto 160%;
+            }
+        }
+    }
+}

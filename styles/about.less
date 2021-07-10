@@ -1,0 +1,58 @@
+.wrapper {
+    background: url(../public/img/about_bg.png) no-repeat center #111216;
+    background-size: cover;
+    .content {
+        height: 800px;
+        width: 1200px;
+        margin: 0 auto;
+        .people {
+            background: url(../public/img/about_people.png) no-repeat center;
+            background-size: auto 800px;
+            margin-top: 80px;
+            width: 700px;
+            height: 720px;
+            float: left;
+            position: relative;
+        }
+        .text {
+            width: 450px;
+            float: left;
+            position: relative;
+            .title {
+                background: url(../public/img/abount_title.png) no-repeat center;
+                background-size: 100% auto;
+                width: 420px;
+                height: 200px;
+                margin-top: 100px;
+                text-align: right;
+                h1{
+                    font-family: "title";
+                    color: #fff;
+                    font-size: 80px;
+                }
+                h2{
+                    color: #fff;
+                    font-size: 40px;
+                    font-family: "jp";
+                    opacity: 0.6;
+                    margin-top: -40px;
+                    letter-spacing: 10px;
+                }
+            }
+            .description {
+                font-size: 20px;
+                color: #fff;
+                font-family: "description";
+                line-height: 1.6em;
+                padding:30px 0;
+                p{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .wrapper {
+    }
+}

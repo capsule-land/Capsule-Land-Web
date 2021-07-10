@@ -1,0 +1,811 @@
+.wrapper {
+    background: #2e3c56;
+    .banner {
+        background: url(../public/img/banner2.jpeg) no-repeat center;
+        background-size: cover;
+        height: 750px;
+        position: relative;
+        .role_xrp {
+            background: url(../public/img/role_xrp.png) no-repeat center;
+            background-size: 100% auto;
+            width: 360px;
+            height: 469px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 15;
+            margin-left: -790px;
+        }
+        .role_eth {
+            background: url(../public/img/role_eth.png) no-repeat center;
+            background-size: 100% auto;
+            width: 188px;
+            height: 470px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 14;
+            margin-left: -530px;
+        }
+        .role_etc {
+            background: url(../public/img/role_etc.png) no-repeat center;
+            background-size: 100% auto;
+            width: 468px;
+            height: 480px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 13;
+            margin-left: -490px;
+        }
+        .role_doge {
+            background: url(../public/img/role_doge.png) no-repeat center;
+            background-size: 100% auto;
+            width: 271px;
+            height: 440px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 13;
+            margin-left: -300px;
+        }
+        .role_bnb {
+            background: url(../public/img/role_bnb.png) no-repeat center;
+            background-size: 100% auto;
+            width: 213px;
+            height: 432px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 13;
+            margin-left: -30px;
+        }
+        .role_ada {
+            background: url(../public/img/role_ada.png) no-repeat center;
+            background-size: 100% auto;
+            width: 353px;
+            height: 575px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 12;
+            margin-left: 90px;
+        }
+        .role_usdt {
+            background: url(../public/img/role_usdt.png) no-repeat center;
+            background-size: 100% auto;
+            width: 260px;
+            height: 520px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 12;
+            margin-left: 330px;
+        }
+        .role_btc {
+            background: url(../public/img/role_btc.png) no-repeat center;
+            background-size: 100% auto;
+            width: 350px;
+            height: 464px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 12;
+            margin-left: 360px;
+        }
+        .total_data {
+            position: absolute;
+            height: 100px;
+            bottom: -70px;
+            text-align: center;
+            left: 0;
+            right: 0;
+            z-index: 99;
+            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+            ul {
+                position: absolute;
+                bottom: 0;
+                display: inline-block;
+                font-size: 0;
+                width: 1400px;
+                left: 50%;
+                margin-left: -700px;
+                font-family: "font";
+                li {
+                    display: inline-block;
+                    width: 25%;
+                    zoom: 1;
+                    padding: 15px 0 5px 0;
+                    position: relative;
+                    i {
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        left: 20px;
+                        &.icon_box {
+                            background: url(../public/img/icon_box.png) no-repeat center bottom;
+                            background-size: auto 100%;
+                        }
+                        &.icon_person {
+                            background: url(../public/img/icon_person.png) no-repeat center bottom;
+                            background-size: auto 100%;
+                        }
+                        &.icon_dress {
+                            background: url(../public/img/icon_dress.png) no-repeat center bottom;
+                            background-size: auto 100%;
+                        }
+                        &.icon_sound {
+                            background: url(../public/img/icon_sound.png) no-repeat center bottom;
+                            background-size: auto 100%;
+                        }
+                    }
+                    h1 {
+                        font-size: 32px;
+                        color: #fff;
+                    }
+                    p {
+                        font-size: 20px;
+                        font-weight: lighter;
+                        text-transform: uppercase;
+                    }
+                    &:first-child {
+                        background: linear-gradient(#615a4d00, #615a4d);
+                        p {
+                            color: #b9a685;
+                        }
+                    }
+                    &:nth-child(2) {
+                        background: linear-gradient(#76805c00, #76805c);
+                        p {
+                            color: #e1f2a3;
+                        }
+                    }
+                    &:nth-child(3) {
+                        background: linear-gradient(#5f4b7100, #5f4b71);
+                        p {
+                            color: #b489ce;
+                        }
+                    }
+                    &:last-child {
+                        background: linear-gradient(#827e6600, #827e66);
+                        p {
+                            color: #b9a685;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .role {
+        padding: 20px 0;
+        background: #0e1623;
+        margin-top: 70px;
+        ul {
+            white-space: nowrap;
+            li {
+                display: inline-block;
+                width: 225px;
+                height: 200px;
+                margin: 0 8px;
+                cursor: pointer;
+                .inner {
+                    position: relative;
+                    width: 225px;
+                    height: 162px;
+                    border: 1px solid #0f1623;
+                    color: #fff;
+                    font-size: 12px;
+                    text-shadow: 0 0 3px rgba(17, 17, 17, 0.5);
+                    span.border {
+                        position: absolute;
+                        background: url(../public/img/border.svg) no-repeat center;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        z-index: 9999;
+                    }
+                    .hash {
+                        color: #ffedd2;
+                        font-size: 14px;
+                        margin-top: 130px;
+                        position: relative;
+                        padding: 5px 10px;
+                    }
+                    h2 {
+                        background: rgba(0, 0, 0, 0.5);
+                        font-size: 14px;
+                        float: right;
+                        padding: 0px 5px;
+                        border-radius: 3px;
+                        margin-right: 12px;
+                        margin-top: 22px;
+                        position: relative;
+                        z-index: 999;
+                    }
+                    .role_bg {
+                        background-size: auto 100%;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        height: 162px;
+                        z-index: 0;
+                    }
+                    &.eth {
+                        background-image: linear-gradient(#6f537c00, #6f537c);
+                        border-radius: 8px;
+                        .role_bg {
+                            background: url(../public/img/square_ETH.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #745680;
+                        }
+                        .border {
+                            filter: hue-rotate(105deg);
+                        }
+                    }
+                    &.etc {
+                        background-image: linear-gradient(#6f537c00, #9ebd6c);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_ETC.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #9ebd6c;
+                        }
+                        .border {
+                            filter: hue-rotate(290deg);
+                        }
+                    }
+                    &.ada {
+                        background-image: linear-gradient(#6f537c00, #6583ad);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_ADA.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #6583ad;
+                        }
+                        .border {
+                            filter: hue-rotate(55deg);
+                        }
+                    }
+                    &.btc {
+                        background-image: linear-gradient(#6f537c00, #e5c469);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_BTC.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #e5c469;
+                        }
+                        .border {
+                            filter: hue-rotate(245deg);
+                        }
+                    }
+                    &.doge {
+                        background-image: linear-gradient(#6f537c00, #e2cd83);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_Doge.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #e2cd83;
+                        }
+                        .border {
+                            filter: hue-rotate(255deg);
+                        }
+                    }
+                    &.bnb {
+                        background-image: linear-gradient(#6f537c00, #f8d992);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_BNB.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #f8d992;
+                        }
+                        .border {
+                            filter: hue-rotate(264deg);
+                        }
+                    }
+                    &.usdt {
+                        background-image: linear-gradient(#6f537c00, #aed677);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_USDT.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #aed677;
+                        }
+                        .border {
+                            filter: hue-rotate(285deg);
+                        }
+                    }
+                    &.xrp {
+                        background-image: linear-gradient(#6f537c00, #d5625b);
+                        border-radius: 8px;
+                        background-size: 100% auto;
+                        .role_bg {
+                            background: url(../public/img/square_XRP.png) no-repeat center bottom;
+                            background-size: 100% auto;
+                        }
+                        h2 {
+                            color: #d5625b;
+                        }
+                        .border {
+                            filter: hue-rotate(200deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .introduce {
+        background: url(../public/img/introduce_bg.png) no-repeat center 125px;
+        background-color: #12161d;
+        background-size: auto 100%;
+        height: 700px;
+        margin-top: -1px;
+        position: relative;
+        overflow: hidden;
+        .introduce_star1 {
+            background: url(../public/img/introduce_star.png) no-repeat center;
+            background-size: 100% auto;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 50%;
+            top: 250px;
+            margin-left: -100px;
+            animation: shine 3s linear infinite;
+        }
+        .introduce_star2 {
+            background: url(../public/img/introduce_star.png) no-repeat center;
+            background-size: 100% auto;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: 50%;
+            top: 250px;
+            margin-left: -250px;
+            margin-top: -30px;
+            animation: shine 3s linear infinite;
+            animation-delay: 1s;
+        }
+        .introduce_star3 {
+            background: url(../public/img/introduce_star.png) no-repeat center;
+            background-size: 100% auto;
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            left: 50%;
+            top: 350px;
+            margin-left: -450px;
+            animation: shine 3s linear infinite;
+            animation-delay: 2s;
+        }
+        .introduce_star4 {
+            background: url(../public/img/introduce_star.png) no-repeat center;
+            background-size: 100% auto;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            left: 50%;
+            top: 450px;
+            margin-left: -100px;
+            animation: shine 5s linear infinite;
+            animation-delay: 1.5s;
+        }
+        .introduce_star5 {
+            background: url(../public/img/introduce_star.png) no-repeat center;
+            background-size: 100% auto;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            left: 50%;
+            top: 500px;
+            margin-left: -420px;
+            animation: shine 5s linear infinite;
+            animation-delay: 3s;
+        }
+        .introduce_bg {
+            background: url(../public/img/magic_circle.png) no-repeat center;
+            background-size: 100% auto;
+            height: 600px;
+            position: absolute;
+            width: 600px;
+            left: 50%;
+            top: 50%;
+            margin: -100px 0 0 -500px;
+            opacity: 0.5;
+            animation: rotate 60s linear infinite;
+        }
+        ul {
+            text-align: center;
+            li {
+                width: 140px;
+                height: 125px;
+                display: inline-block;
+                margin: 0 10px;
+                cursor: pointer;
+                &.btc {
+                    background: url(../public/img/introduce_btc_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_btc_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.eth {
+                    background: url(../public/img/introduce_eth_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_eth_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.bnb {
+                    background: url(../public/img/introduce_bnb_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_bnb_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.xrp {
+                    background: url(../public/img/introduce_xrp_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_xrp_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.ada {
+                    background: url(../public/img/introduce_ada_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_ada_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.usdt {
+                    background: url(../public/img/introduce_usdt_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_usdt_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.doge {
+                    background: url(../public/img/introduce_doge_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_doge_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+                &.etc {
+                    background: url(../public/img/introduce_etc_inactive.png) no-repeat center;
+                    background-size: auto 93px;
+                    &.active {
+                        background: url(../public/img/introduce_etc_active.png) no-repeat center;
+                        background-size: auto 93px;
+                    }
+                }
+            }
+        }
+        .introduce_role {
+            ul {
+                li {
+                    display: none;
+                    &.show {
+                        display: block;
+                    }
+                }
+            }
+            .figure {
+                width: 600px;
+                height: 570px;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                margin-left: -500px;
+                z-index: 9;
+                &.btc {
+                    background: url(../public/img/figure_btc.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.eth {
+                    background: url(../public/img/figure_eth.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.bnb {
+                    background: url(../public/img/figure_bnb.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.doge {
+                    background: url(../public/img/figure_doge.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.etc {
+                    background: url(../public/img/figure_etc.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.usdt {
+                    background: url(../public/img/figure_usdt.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.xrp {
+                    background: url(../public/img/figure_xrp.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.ada {
+                    background: url(../public/img/figure_ada.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+            }
+            .figure_bg {
+                width: 620px;
+                height: 590px;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                margin-left: -510px;
+                z-index: 8;
+                filter: blur(15px);
+                &.btc {
+                    background: url(../public/img/figure_btc.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.eth {
+                    background: url(../public/img/figure_eth.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.bnb {
+                    background: url(../public/img/figure_bnb.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.doge {
+                    background: url(../public/img/figure_doge.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.etc {
+                    background: url(../public/img/figure_etc.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.usdt {
+                    background: url(../public/img/figure_usdt.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.xrp {
+                    background: url(../public/img/figure_xrp.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+                &.ada {
+                    background: url(../public/img/figure_ada.png) no-repeat center;
+                    background-size: auto 100%;
+                }
+            }
+            .text {
+                position: absolute;
+                left: 50%;
+                margin-left: 100px;
+                top: 150px;
+                width: 450px;
+                .title {
+                    height: 120px;
+                    font-family: "title";
+                    color: #fff;
+                    font-size: 80px;
+                    text-align: right;
+                    letter-spacing: 0.05em;
+                    border-bottom: 2px solid #fff;
+                }
+                .sub_title {
+                    color: #fff;
+                    font-size: 40px;
+                    opacity: 0.6;
+                    text-align: right;
+                    font-family: "jp";
+                    margin-top: -78px;
+                    letter-spacing: 0.2em;
+                }
+                .description {
+                    margin-top: 60px;
+                    color: #fff;
+                    opacity: 0.5;
+                    text-align: left;
+                    line-height: 2em;
+                        font-family: "description";
+                }
+            }
+        }
+    }
+    .lucky_box {
+        background: url(../public/img/luck_box_bg.jpg) no-repeat center;
+        background-size: cover;
+        height: 700px;
+        padding: 50px 0;
+        h1 {
+            background: url(../public/img/luck_box_title.png) no-repeat center;
+            background-size: auto 100%;
+            height: 70px;
+        }
+        .lucky_bg {
+            background: url(../public/img/luck_box_box_bg.png) no-repeat center;
+            background-size: 100% 100%;
+            width: 1000px;
+            height: 500px;
+            margin: 80px auto 0 auto;
+            padding-top: 20px;
+            position: relative;
+            .lucky_cute {
+                background: url(../public/img/luck_box_cute.png) no-repeat center;
+                background-size: 100% 100%;
+                width: 980px;
+                height: 390px;
+                margin: 0 auto;
+                position: relative;
+                z-index: 99;
+            }
+            .lucky_people {
+                background: url(../public/img/luck_box_people.png) no-repeat center;
+                background-size: 100% auto;
+                width: 1200px;
+                height: 600px;
+                position: absolute;
+                top: -70px;
+                left: 50%;
+                margin-left: -590px;
+                z-index: 100;
+            }
+            .roller {
+                position: absolute;
+                z-index: 1;
+                top: 15px;
+                width: 980px;
+                left: 10px;
+                ul {
+                    white-space: nowrap;
+                    li {
+                        display: inline-block;
+                        width: 120px;
+                        height: 400px;
+                        margin: 0 4px;
+                        cursor: pointer;
+                        &.person {
+                            background: url(../public/img/roller_person.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.dress1 {
+                            background: url(../public/img/roller_dress1.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.dress2 {
+                            background: url(../public/img/roller_dress2.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.dress3 {
+                            background: url(../public/img/roller_dress3.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.sound1 {
+                            background: url(../public/img/roller_sound1.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.sound2 {
+                            background: url(../public/img/roller_sound2.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.sound3 {
+                            background: url(../public/img/roller_sound3.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                        &.sound4 {
+                            background: url(../public/img/roller_sound4.png) no-repeat center;
+                            background-size: 100% auto;
+                        }
+                    }
+                }
+            }
+            .lucky_line {
+                background: url(../public/img/luck_box_line.png) no-repeat center;
+                background-size: auto 100%;
+                width: 30px;
+                height: 500px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-top: -290px;
+                z-index: 99;
+            }
+            .lucky_open_box {
+                background: url(../public/img/roller_open_box.png) no-repeat center;
+                background-size: 100% auto;
+                width: 200px;
+                height: 50px;
+                border: none;
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                margin-left: -100px;
+                cursor: pointer;
+                z-index: 9999;
+            }
+        }
+    }
+    .partners {
+        background: #12161d;
+        text-align: center;
+        padding: 80px 0 120px 0;
+        color: #fff;
+        h1 {
+            font-size: 48px;
+            font-weight: lighter;
+            color: #ffffff7a;
+        }
+        ul {
+            margin-top: 60px;
+            li {
+                width: 272px;
+                display: inline-block;
+                padding: 0 70px;
+                border-right: 1px solid rgba(151, 151, 151, 0.4);
+                &:last-child {
+                    border: none;
+                }
+                img {
+                    width: 100%;
+                }
+                p {
+                    font-size: 16px;
+                    padding: 30px 0;
+                }
+            }
+        }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes shine {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+    }
+}

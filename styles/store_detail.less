@@ -1,0 +1,363 @@
+.wrapper {
+    margin-top: -75px;
+    .banner {
+        background: url(../public/img/store_bg.jpg) no-repeat center;
+        background-size: auto 100%;
+        height: 1034px;
+        position: relative;
+        .chara_chise {
+            background: url(../public/img/chara_chise.svg) no-repeat center;
+            background-size: 100% auto;
+            height: 715px;
+            width: 259px;
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            margin-left: -620px;
+        }
+        .capsule {
+            background: url(../public/img/capsule.svg) no-repeat center;
+            width: 388px;
+            height: 640px;
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            margin-left: -200px;
+            cursor: pointer;
+        }
+        .gashapon {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            width: 374px;
+            height: 736px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 50%;
+            bottom: 30px;
+            margin-left: 350px;
+            text-align: center;
+            h1 {
+                font-size: 18px;
+                text-align: left;
+                margin-bottom: 10px;
+            }
+            .gashapon_box {
+                border-bottom: 1px solid #e3b260;
+                padding-bottom: 15px;
+                background: rgba(0, 0, 0, 0.5);
+                padding-top: 15px;
+                img {
+                    width: 103px;
+                    height: 143px;
+                    background: #000;
+                }
+                p {
+                    font-size: 14px;
+                    color: #ffda8d;
+                }
+            }
+            .card_list {
+                border-bottom: 1px solid #e3b260;
+                padding-bottom: 15px;
+                background: rgba(0, 0, 0, 0.5);
+                padding-top: 15px;
+                margin-top: 20px;
+                &.border_none {
+                    border: none;
+                }
+                h2 {
+                    text-align: left;
+                    text-indent: 2em;
+                    border-bottom: 1px solid rgba(224, 221, 208, 0.4);
+                    padding-bottom: 10px;
+                }
+                ul {
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        width: 128px;
+                        height: 160px;
+                        background: #2e3033;
+                        position: relative;
+                        margin: 20px 0 0 20px;
+                        text-align: center;
+                        &:first-child {
+                            img {
+                                margin-left: -36px;
+                            }
+                        }
+                        img {
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            margin-left: -66px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .list {
+        background: url(../public/img/list_bg.png) no-repeat center;
+        background-size: cover;
+        padding: 50px 0;
+        ul {
+            font-size: 14px;
+            width: 960px;
+            margin: 0 auto;
+            border-radius: 5px;
+            overflow: hidden;
+            li {
+                color: #fff;
+                height: 55px;
+                line-height: 55px;
+                span {
+                    text-align: center;
+                    width: 25%;
+                    display: inline-block;
+                    img {
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: 10px;
+                    }
+                }
+                &.header {
+                    color: #b29061;
+                    border-bottom: 1px solid #b290617a;
+                    height: 48px;
+                    line-height: 48px;
+                }
+            }
+        }
+    }
+    .capsule_mask {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        &.none{
+            display: none;
+        }
+        .capsule_alert {
+            width: 728px;
+            min-height: 350px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -182px 0 0 -364px;
+            background: #f3efe6;
+            box-shadow: 0px 8px 40px rgba(178, 144, 97, 0.5);
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            justify-content: center;
+            b{
+                width: 72px;
+                height: 72px;
+                background: url(../public/img/icon_close.png) no-repeat center;
+                background-size:100% auto ;
+                position: absolute;
+                top: -65px;
+                right: -22px;
+                cursor: pointer;
+            }
+            .inner {
+                padding: 20px;
+                color: #111;
+                text-align: center;
+                display: none !important;
+                &.show{
+                    display: block !important;
+                }
+                &.notice {
+                    display: flex;
+                    justify-content: center;
+                    height: 100%;
+                    flex-direction: column;
+                    text-align: center;
+                    h1 {
+                        font-size: 32px;
+                        font-weight: bold;
+                        line-height: 2em;
+                        width: 100%;
+                    }
+                    p {
+                        font-size: 16px;
+                        line-height: 22px;
+                        width: 100%;
+                        line-height: 1.5em;
+                    }
+                }
+                &.coin_draw {
+                    padding: 0;
+                    text-align: center;
+                    .title {
+                        border-bottom: 1px solid #c6c6c6;
+                        font-size: 20px;
+                        color: #000;
+                        height: 60px;
+                        line-height: 60px;
+                        font-weight: bold;
+                    }
+                    .content {
+                        display: flex;
+                        justify-content: center;
+                        height: 100%;
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        ul {
+                            padding: 50px 0;
+                            li {
+                                display: inline-block;
+                                font-size: 14px;
+                                cursor: pointer;
+                                text-align: center;
+                                width: 144px;
+                                height: 48px;
+                                line-height: 48px;
+                                border: 2px solid #cfd0d0;
+                                margin: 0 10px;
+                                font-size: 20px;
+                                color: #333;
+                                border-radius: 4px;
+                                &.active {
+                                    border: 2px solid #b29061;
+                                    box-shadow: 0px 0px 16px rgba(178, 144, 97, 0.4);
+                                }
+                            }
+                        }
+                        button {
+                            min-width: 200px;
+                            height: 40px;
+                            background: #A28B6C;
+                            color: #fff;
+                            text-align: center;
+                            opacity: 1;
+                            font-size: 16px;
+                            border-radius: 20px;
+                            padding: 0 10px;
+                            cursor: pointer;
+                            border: none;
+                            text-transform: uppercase;
+                            white-space: nowrap;
+                            font-weight: bold;
+                            transition: all 0.3s;
+                            &:hover{
+                                background: #B29061;
+                                box-shadow: 0px 8px 8px rgba(178, 144, 97, 0.24);
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #b29061;
+                            line-height: 2em;
+                        }
+                    }
+                }
+                &.congratulate {
+                    display: flex;
+                    justify-content: center;
+                    height: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                    h1 {
+                        font-size: 20px;
+                        color: #000;
+                        font-weight: bold;
+                        line-height: 3em;
+                    }
+                    .capsule_box {
+                        width: 256px;
+                        height: 256px;
+                        position: relative;
+                        margin: 0 auto;
+                        img {
+                            width: 100%;
+                        }
+                        i {
+                            width: 24px;
+                            height: 24px;
+                            font-size: 14px;
+                            color: #fff;
+                            background: #d6a867;
+                            border-radius: 50%;
+                            box-shadow: 0 0 8px #e3b260, 0 0 8px #e3b260, 0 0 8px #e3b260, 0 0 14px #ffda8d, 0 0 14px #ffda8d, 0 0 14px #ffda8d;
+                            position: absolute;
+                            left: 50%;
+                            top: 25px;
+                            font-style: normal;
+                            line-height: 24px;
+                            margin-left: 10px;
+                        }
+                    }
+                    .btns {
+                        padding: 10px 0;
+                        button {
+                            min-width: 200px;
+                            height: 40px;
+                            background: #A28B6C;
+                            color: #fff;
+                            text-align: center;
+                            opacity: 1;
+                            font-size: 16px;
+                            border-radius: 20px;
+                            cursor: pointer;
+                            border: none;
+                            margin: 0 10px;
+                            padding: 0 20px;
+                            text-transform: uppercase;
+                            white-space: nowrap;
+                            font-weight: bold;
+                            &:hover{
+                                background: #B29061;
+                                box-shadow: 0px 8px 8px rgba(178, 144, 97, 0.24);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .open_mask{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: url(../public/img/open_bg.png) no-repeat center rgba(0, 0, 0, 0.9);
+        background-size: 400px auto;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.none{
+            display: none;
+        }
+        ul{
+            li{
+                    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+                .star_bg{
+                    background: url(../public/img/star_bg.png) no-repeat center;
+                        background-size: 100% auto;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 8;
+                }
+                img{
+                        position: relative;
+    z-index: 9;
+                }
+            }
+        }
+    }
+}
