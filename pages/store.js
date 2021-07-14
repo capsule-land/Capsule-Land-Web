@@ -17,7 +17,6 @@ const Home = ({ t }) => {
    const [activeBox, setActiveBox] = useState(false)
    const [activeBoxStyle, setActiveBoxStyle] = useState(false)
    const [cardShow, setCardShow] = useState(false)
-
    const drewAnimation = ()=>{
         let speedUp = true;
         window.speed = 1000;
@@ -31,6 +30,7 @@ const Home = ({ t }) => {
            if (window.speed >= 4000) {
                speedUp = false
            }
+
             if (window.speed > 0 && !speedUp) {
                 window.speed = window.speed - 5
                 console.log(window.speed)
@@ -185,6 +185,7 @@ const Home = ({ t }) => {
                   </li>
               </ul>
               <div className={cx(styles.drew, { show: showDrewBox })}>
+                  {/*返回按钮*/}
                   <button
                       onClick={() => {
                           setShowDrewBox(false)

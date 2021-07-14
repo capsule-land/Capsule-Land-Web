@@ -308,13 +308,13 @@ const Home = ({ t }) => {
                     <h1>Our partners</h1>
                     <ul>
                         <li>
-                            <img src="/img/partners1.png" />
+                            <img src="/img/Hashpalette_logo.svg" />
                         </li>
                         <li>
-                            <img src="/img/partners2.png" />
+                            <img src="/img/logo_hashport.svg" />
                         </li>
                         <li>
-                            <img src="/img/partners3.png" />
+                            <img src="/img/logo_linku.svg" />
                         </li>
                     </ul>
                 </div>

@@ -762,9 +762,11 @@
         ul {
             margin-top: 60px;
             li {
+                overflow: hidden;
                 width: 272px;
+                height: 192.33px;
                 display: inline-block;
-                padding: 0 70px;
+                padding: 0 20px;
                 border-right: 1px solid rgba(151, 151, 151, 0.4);
                 &:last-child {
                     border: none;
@@ -772,9 +774,24 @@
                 img {
                     width: 100%;
                 }
+
                 p {
                     font-size: 16px;
                     padding: 30px 0;
+                }
+            }
+            li:nth-of-type(2){
+                img{
+                    height: 192.33px;
+                    width: 272px;
+                    transform: scale(1.4);
+                }
+            }
+            li:nth-of-type(3){
+                img{
+                    height: 192.33px;
+                    width: 272px;
+                    transform: scale(1.8);
                 }
             }
         }
