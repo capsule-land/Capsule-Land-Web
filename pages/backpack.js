@@ -93,7 +93,7 @@ const Home = ({ t }) => {
                                   <h3>服装</h3>
                               </li>
                               <li>
-                                  <h1 className={cx(styles.card, { dress1: selectDress == 1 }, { dress2: selectDress == 2 })}></h1>
+                                  <h1 className={cx(styles.card, { sound1: selectVoice == 1 }, { sound2: selectVoice == 2 })}></h1>
                                   <h3>音效</h3>
                               </li>
                           </ul>
