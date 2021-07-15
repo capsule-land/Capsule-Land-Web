@@ -190,14 +190,20 @@ const Home = ({ t }) => {
                                 <div className={cx(styles.figure, styles.bnb, "animate__slideInLeft", "animate__animated", "animate__fast")}></div>
                                 <div className={cx(styles.figure_bg, styles.bnb, "animate__fadeIn", "animate__animated", "animate__delay-1s")}></div>
                                 <div className={cx(styles.text, "animate__slideInRight", "animate__animated", "animate__fast")}>
-                                    <div className={cx(styles.title, styles.bnb)}>BitCoin</div>
+                                    <div className={cx(styles.title, styles.bnb)}>Binance Coin</div>
                                     <div className={styles.sub_title}>ビットコイン</div>
                                     <div className={styles.description}>
-                                        <p>跟以太坊是姐妹</p>
-                                        <p>与以太坊沉稳博学完全相反</p>
-                                        <p>是个活泼好动的小萝莉</p>
-                                        <p>看上去像妹妹</p>
-                                        <p>但实际上却是姐姐（反差萌点）</p>
+                                        <p>Height: 158 CM</p>
+                                        <p>Blood Type: A</p>
+                                        <p>Birthday: Jul 8th </p>
+                                        <p>Constellation：Cancer</p>
+                                        <p>Favourite Food： Pizza of Hodler’s </p>
+                                        <p>Hobby：Fashionable clothing, Hiphop, Coding</p>
+                                        <p>Introduction：</p>
+                                        <p>
+                                            Young programming expert working at Sci-Gulf. Always treated as high school student by mistake due her fashionable wearings. Core member of Cryptopia
+                                            Security Committee. Like to spend leisure time in Buidl for books on coding. A big fan of Hodler’s.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
@@ -205,14 +211,21 @@ const Home = ({ t }) => {
                                 <div className={cx(styles.figure, styles.doge, "animate__slideInLeft", "animate__animated", "animate__fast")}></div>
                                 <div className={cx(styles.figure_bg, styles.doge, "animate__fadeIn", "animate__animated", "animate__delay-1s")}></div>
                                 <div className={cx(styles.text, "animate__slideInRight", "animate__animated", "animate__fast")}>
-                                    <div className={cx(styles.title, styles.doge)}>BitCoin</div>
+                                    <div className={cx(styles.title, styles.doge)}>Dogecoin</div>
                                     <div className={styles.sub_title}>ビットコイン</div>
                                     <div className={styles.description}>
-                                        <p>跟以太坊是姐妹</p>
-                                        <p>与以太坊沉稳博学完全相反</p>
-                                        <p>是个活泼好动的小萝莉</p>
-                                        <p>看上去像妹妹</p>
-                                        <p>但实际上却是姐姐（反差萌点）</p>
+                                        <p>Height: 160 CM</p>
+                                        <p>Blood Type: AB</p>
+                                        <p>Birthday: Dec 12th </p>
+                                        <p>Constellation：Sagittarius</p>
+                                        <p>Favourite Food： Sukiyaki </p>
+                                        <p>Hobby：Cats</p>
+                                        <p>Introduction：</p>
+                                        <p>
+                                            Daughter of the founder of Cryptopia’s biggest car manufacturer — Dogesla. Beloved sweetie of her father. Atmosphere balancer of all kinds of groups.
+                                            Proficient in different kind of memes. Has a unique style of talking. Always teased by others due to short tail. Has raised many cats. Will drive CyberTruck
+                                            slinkingly for a ride sometimes.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
@@ -220,14 +233,20 @@ const Home = ({ t }) => {
                                 <div className={cx(styles.figure, styles.etc, "animate__slideInLeft", "animate__animated", "animate__fast")}></div>
                                 <div className={cx(styles.figure_bg, styles.etc, "animate__fadeIn", "animate__animated", "animate__delay-1s")}></div>
                                 <div className={cx(styles.text, "animate__slideInRight", "animate__animated", "animate__fast")}>
-                                    <div className={cx(styles.title, styles.etc)}>BitCoin</div>
+                                    <div className={cx(styles.title, styles.etc)}>Ethereum Classic</div>
                                     <div className={styles.sub_title}>ビットコイン</div>
                                     <div className={styles.description}>
-                                        <p>跟以太坊是姐妹</p>
-                                        <p>与以太坊沉稳博学完全相反</p>
-                                        <p>是个活泼好动的小萝莉</p>
-                                        <p>看上去像妹妹</p>
-                                        <p>但实际上却是姐姐（反差萌点）</p>
+                                        <p>Height: 155 CM</p>
+                                        <p>Blood Type: A </p>
+                                        <p>Birthday: Jul 24th </p>
+                                        <p>Constellation：Leo</p>
+                                        <p>Favourite Food： Katsudon </p>
+                                        <p>Hobby：Playing on swing, Sleeping with Moony</p>
+                                        <p>Introduction：</p>
+                                        <p>
+                                            Sister of ETH. Contrast to ETH’s being staid and erudite, ETC is a lively and energetic Loli. Elder sister of ETH while looks like younger sister. Prefer to
+                                            spend more time with Moony.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
@@ -235,14 +254,21 @@ const Home = ({ t }) => {
                                 <div className={cx(styles.figure, styles.usdt, "animate__slideInLeft", "animate__animated", "animate__fast")}></div>
                                 <div className={cx(styles.figure_bg, styles.usdt, "animate__fadeIn", "animate__animated", "animate__delay-1s")}></div>
                                 <div className={cx(styles.text, "animate__slideInRight", "animate__animated", "animate__fast")}>
-                                    <div className={cx(styles.title, styles.usdt)}>BitCoin</div>
+                                    <div className={cx(styles.title, styles.usdt)}>Tether</div>
                                     <div className={styles.sub_title}>ビットコイン</div>
                                     <div className={styles.description}>
-                                        <p>跟以太坊是姐妹</p>
-                                        <p>与以太坊沉稳博学完全相反</p>
-                                        <p>是个活泼好动的小萝莉</p>
-                                        <p>看上去像妹妹</p>
-                                        <p>但实际上却是姐姐（反差萌点）</p>
+                                        <p>Height: 172 CM</p>
+                                        <p>Blood Type: O</p>
+                                        <p>Birthday: Nov 26th </p>
+                                        <p>Constellation：Sagittarius</p>
+                                        <p>Favourite Food： Ramen </p>
+                                        <p>Hobby：Making Money</p>
+                                        <p>Introduction：</p>
+                                        <p>
+                                            Famous banker of Block Street. Equipped herself with luxuries from top to toe. Though very rich, USDT pinches pennies for most cases. Has a special personal
+                                            hobby of getting things done without giving bucks. Always uses calculator to count gains and losses. Single, desperate for love! Smart as she is, USDT is
+                                            accidentally vulnerable to men’s tricks.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
@@ -250,14 +276,20 @@ const Home = ({ t }) => {
                                 <div className={cx(styles.figure, styles.ada, "animate__slideInLeft", "animate__animated", "animate__fast")}></div>
                                 <div className={cx(styles.figure_bg, styles.ada, "animate__fadeIn", "animate__animated", "animate__delay-1s")}></div>
                                 <div className={cx(styles.text, "animate__slideInRight", "animate__animated", "animate__fast")}>
-                                    <div className={cx(styles.title, styles.ada)}>BitCoin</div>
+                                    <div className={cx(styles.title, styles.ada)}>Cardano</div>
                                     <div className={styles.sub_title}>ビットコイン</div>
                                     <div className={styles.description}>
-                                        <p>跟以太坊是姐妹</p>
-                                        <p>与以太坊沉稳博学完全相反</p>
-                                        <p>是个活泼好动的小萝莉</p>
-                                        <p>看上去像妹妹</p>
-                                        <p>但实际上却是姐姐（反差萌点）</p>
+                                        <p>Height: 178 CM</p>
+                                        <p>Blood Type: AB</p>
+                                        <p>Birthday: Jul 8th </p>
+                                        <p>Constellation：Cancer</p>
+                                        <p>Favourite Food： Bentou of Chain Store </p>
+                                        <p>Hobby：Sword Collection</p>
+                                        <p>Introduction：</p>
+                                        <p>
+                                            Postgraduate of University of Cryptopia. Peaceful and considerate together with traditional and conservative. Like wearing Kimono. Insanely fond of swords
+                                            and have a house of sword collection, thus to be regarded as “Dangerous” as XRP. Doing part time at Bit Yo Ro Tsu Ya during leisure time.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
@@ -265,14 +297,21 @@ const Home = ({ t }) => {
                                 <div className={cx(styles.figure, styles.xrp, "animate__slideInLeft", "animate__animated", "animate__fast")}></div>
                                 <div className={cx(styles.figure_bg, styles.xrp, "animate__fadeIn", "animate__animated", "animate__delay-1s")}></div>
                                 <div className={cx(styles.text, "animate__slideInRight", "animate__animated", "animate__fast")}>
-                                    <div className={cx(styles.title, styles.xrp)}>BitCoin</div>
+                                    <div className={cx(styles.title, styles.xrp)}>Ripple</div>
                                     <div className={styles.sub_title}>ビットコイン</div>
                                     <div className={styles.description}>
-                                        <p>跟以太坊是姐妹</p>
-                                        <p>与以太坊沉稳博学完全相反</p>
-                                        <p>是个活泼好动的小萝莉</p>
-                                        <p>看上去像妹妹</p>
-                                        <p>但实际上却是姐姐（反差萌点）</p>
+                                        <p>Height: 168 CM</p>
+                                        <p>Blood Type: B</p>
+                                        <p>Birthday: Apr 18th </p>
+                                        <p>Constellation：Aries</p>
+                                        <p>Favourite Food： Dry Martini </p>
+                                        <p>Hobby：Gun Collection</p>
+                                        <p>Introduction：</p>
+                                        <p>
+                                            Daughter of the founder of famous consortium in Cryptopia. Japan-American parentage. Looking indifferent by the appearance but actually easy to approach.
+                                            Hobbyist of Guns. Always like to take out guns to explain the structures which always arouse chaos without being aware of it. Fond of different kind of
+                                            cocktails, Dry Martini especially.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
